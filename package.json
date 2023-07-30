@@ -1,0 +1,33 @@
+{
+  "name": "@flipeador/node-otp-2fa",
+  "description": "Node.js One-time password (OTP) / TOTP / HOTP",
+  "version": "1.0.0",
+  "keywords": [
+    "javascript",
+    "node-js",
+    "otp",
+    "hotp",
+    "totp",
+    "2fa"
+  ],
+  "license": "apache-2.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test test/",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flipeador/node-otp-2fa.git"
+  },
+  "author": "Flipeador (https://github.com/flipeador)",
+  "bugs": {
+    "url": "https://github.com/flipeador/node-otp-2fa/issues"
+  },
+  "homepage": "https://github.com/flipeador/node-otp-2fa#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "globals": "^13.20.0"
+  }
+}
